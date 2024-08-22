@@ -139,6 +139,14 @@ label {
     font-weight: 700;
 }
 
+#buttonSubmit:hover {
+    background-color: #3b4433;
+}
+
+#buttonSubmit:focus {
+    background-color: #383e32;
+}
+
 .text-third {
     margin: 10px 50px;
     font-weight: 600;
