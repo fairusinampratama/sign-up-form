@@ -1,0 +1,150 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(../fonts/Norse-Bold.otf)
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+
+.left {
+    background-image: url('./images/halie-west-25xggax4bSA-unsplash.jpg');
+    width: 35vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title-left {
+    font-family: Norse-Bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 180px;
+}
+
+img {
+    width: 100px;
+}
+
+.credit-left {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size: 0.8em;
+}
+
+.credit-left a {
+    color: white;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    background-color: #FAFAFA;
+    width: 65vw;
+    font-family: sans-serif;
+}
+
+.first {
+    height: 25vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    font-size: 1.3rem;
+}
+
+.second {
+    background-color: white;
+    height: 30vh;
+}
+
+.form-main-div {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    width: 60%;
+    gap: 40px;
+}
+
+.form-label {
+    margin-left: 50px;
+    padding-top: 10px;
+}
+
+.form-divs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.form-input {
+    width: 250px;
+    border: 1px solid #E5E7EB;
+    height: 25px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.form-input:focus {
+    border-color: blue;
+}
+
+.form-input:invalid {
+    border-color: red;
+}
+
+label {
+    font-size: 12px;
+    font-weight: 600;
+    color: #424242;
+    letter-spacing: 0.1em;
+}
+
+.third {
+    height: 33vh;
+}
+
+#buttonSubmit {
+    margin: 30px 50px 20px 50px;
+    padding: 15px 50px;
+    background-color: #596D48;
+    border-radius: 5px;
+    color: white;
+    border: 0px;
+    font-weight: 700;
+}
+
+.text-third {
+    margin: 10px 50px;
+    font-weight: 600;
+}
+
+.text-third a{
+    color: #596D48;
+    text-decoration: none;
+}
