@@ -1,6 +1,6 @@
 @font-face {
-    font-family: Norse-Bold;
-    src: url('fonts/Norse-Bold.otf') format('otf');
+    font-family: 'Norse-Bold';
+    src: url('../fonts/Norse-Bold.otf');
 }
 
 body {
@@ -27,7 +27,7 @@ body {
 }
 
 .title-left {
-    font-family: Norse-Bold;
+    font-family: 'Norse-Bold';
     display: flex;
     justify-content: center;
     align-items: center;
